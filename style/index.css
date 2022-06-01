@@ -144,18 +144,18 @@ span {
 }
 
 .card-container {
-  background-color: #a8dadc;
-  margin: 16px 16px 166px 16px;
+  background-color: #f0f0f0;
+  margin: 16px 16px 181px 44px;
   position: absolute;
   bottom: 0px;
-  width: 92%;
   border-radius: 8px;
 }
 
 .inner-container {
-  background-color: #f0f0f0;
-  margin: 16px;
-  padding: 16px;
+  margin: 0px;
+  padding: 7px;
+  border-radius: 7px;
+  width: 287px;
 }
 
 .card-icons {
@@ -210,7 +210,7 @@ span {
 }
 
 .mapboxgl-ctrl-top-right {
-  padding-top: 98px;
+  padding-top: 578px;
 }
 
 .mapboxgl-ctrl-icon{
@@ -223,7 +223,7 @@ span {
 }
 
 .directions-control {
-  font: 16px/22px 'Ubuntu','Open Sans', sans-serif;
+  font: 16px/22px 'open-sans','Open Sans', sans-serif;
 }
 
 .mapboxgl-ctrl-geocoder input[type='text'] {
@@ -274,7 +274,7 @@ span {
 }
 
 .mapboxgl-ctrl-top-right .mapboxgl-ctrl {
-  margin: 22px 58px 0 0;
+  margin: 22px 18px 0 0;
   float: none;
 }
 

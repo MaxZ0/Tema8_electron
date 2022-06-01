@@ -77,7 +77,10 @@ async function buildMap() {
       document.getElementById("container").innerHTML =
         html += `<div class="card-container">
         <div class="inner-container">
-            <h2 class="open-sans margin-z dark-blue">${station}</h2>
+            <div class="flex">
+              <h2 class="ubuntu margin-z dark-blue">${station}</h2>
+              <button id="toggle">X</button>
+            </div>
             <p class="open-sans margin-z dark-blue">${address}</p>
             <span></span>
             <div class="flex">
@@ -114,6 +117,21 @@ async function buildMap() {
           showUserHeading: true
       })
   );
+
+  //trying to make a button to hide the elsykkel array
+  const container = document.getElementById("card-container");
+  const targetDiv = document.getElementsByClassName(container);
+  //but the container 
+  console.log(targetDiv);
+  const btn = document.getElementById("toggle");
+  btn.onclick = function () {
+    if (targetDiv.style.display !== "none") {
+      targetDiv.style.display = "none";
+    } else {
+      targetDiv.style.display = "block";
+    }
+  };
+  //------------------------Contruction area----------------------------
   
 }
 
